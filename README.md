@@ -1,4 +1,5 @@
 # ViscNet, a model to predict viscosity
+[![DOI](https://zenodo.org/badge/313309589.svg)](https://zenodo.org/badge/latestdoi/313309589)
 [![arXiv](https://img.shields.io/badge/arXiv-2007.03719-b31b1b.svg)](https://arxiv.org/abs/2007.03719)
 
 ViscNet is a machine learning model that can predict the temperature-dependency of viscosity of oxide liquids and the fragility index and the glass transition temperature.
@@ -9,6 +10,7 @@ Python 3.6+ is required to run the code. The recommended procedure is to create 
 ``` sh
 pip install -r requirements.txt
 ```
+
 ## Brief description of the script files
 - [models.py](./viscnet/models.py): class to build the models and function to train them.
 - [data.py](./viscnet/data.py): reads the data and splits it.
