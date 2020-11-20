@@ -23,7 +23,7 @@ If you find bugs or have questions, please open an issue. PRs are most welcome.
 ## How to cite
 Cassar, D. R. Reproducible gray-box neural network for predicting the fragility index and the temperature-dependency of viscosity. arXiv:2007.03719 [cond-mat, physics:physics] (2020).
 
-## Database licences
+## Database licenses
 Portions of the data from these databases are used and available in this repository:
 - [SciGlass](https://github.com/epam/SciGlass/blob/master/LICENSE) Copyright (c) 2019 EPAM Systems
 - [matminer](https://github.com/hackingmaterials/matminer/blob/master/LICENSE) Copyright (c) 2015, The Regents of the University of California
