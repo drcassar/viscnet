@@ -1,4 +1,5 @@
 # ViscNet, a model to predict viscosity
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.actamat.2020.116602-blue)](https://doi.org/10.1016/j.actamat.2020.116602)
 [![DOI](https://zenodo.org/badge/313309589.svg)](https://zenodo.org/badge/latestdoi/313309589)
 [![arXiv](https://img.shields.io/badge/arXiv-2007.03719-b31b1b.svg)](https://arxiv.org/abs/2007.03719)
 
@@ -23,7 +24,7 @@ pip install -r requirements.txt
 If you find bugs or have questions, please open an issue. PRs are most welcome.
 
 ## How to cite
-Cassar, D. R. Reproducible gray-box neural network for predicting the fragility index and the temperature-dependency of viscosity. arXiv:2007.03719 [cond-mat, physics:physics] (2020).
+Cassar, D.R. (2021). ViscNet: Neural network for predicting the fragility index and the temperature-dependency of viscosity. Acta Materialia 206, 116602.
 
 ## Database licenses
 Portions of the data from these databases are used and available in this repository:
@@ -34,7 +35,7 @@ Portions of the data from these databases are used and available in this reposit
 ## ViscNet license
 [GPL](https://github.com/drcassar/viscnet/blob/master/LICENSE)
 
-ViscNet, a machine learning model to predict viscosity. Copyright (C) 2020 Daniel Roberto Cassar
+ViscNet, a machine learning model to predict viscosity. Copyright (C) 2020-2021 Daniel Roberto Cassar
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
