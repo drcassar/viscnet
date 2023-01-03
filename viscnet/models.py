@@ -87,7 +87,7 @@ class BaseViscosityModel(pl.LightningModule, ABC):
 
         self.x_mean = x_mean
         self.x_std = x_std
-        self.hparams = hparams
+        self.hparams.update(hparams)
 
     def gen_atomic_df(self, composition_df):
         compound_lst = composition_df.columns.tolist()
@@ -465,7 +465,6 @@ def train_model(model, train_ds, val_ds, num_workers=4, deterministic=True):
 
     trainer = pl.Trainer(
         max_epochs=model.hparams['max_epochs'],
-        progress_bar_refresh_rate=10,
         callbacks=[earlystop],
         deterministic=deterministic,
     )

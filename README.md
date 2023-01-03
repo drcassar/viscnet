@@ -12,6 +12,8 @@ Python 3.6+ is required to run the code. The recommended procedure is to create 
 pip install -r requirements.txt
 ```
 
+After this, install PyTorch and PyTorch-lightning following the instructions in their respective websites (https://pytorch.org/ and https://pytorch-lightning.readthedocs.io/en/latest/)
+
 ## Brief description of the script files
 - [models.py](./viscnet/models.py): class to build the models and function to train them.
 - [data.py](./viscnet/data.py): reads the data and splits it.
@@ -35,7 +37,7 @@ Portions of the data from these databases are used and available in this reposit
 ## ViscNet license
 [GPL](https://github.com/drcassar/viscnet/blob/master/LICENSE)
 
-ViscNet, a machine learning model to predict viscosity. Copyright (C) 2020-2021 Daniel Roberto Cassar
+ViscNet, a machine learning model to predict viscosity. Copyright (C) 2020-2023 Daniel Roberto Cassar
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
