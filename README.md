@@ -3,6 +3,8 @@
 [![DOI](https://zenodo.org/badge/313309589.svg)](https://zenodo.org/badge/latestdoi/313309589)
 [![arXiv](https://img.shields.io/badge/arXiv-2007.03719-b31b1b.svg)](https://arxiv.org/abs/2007.03719)
 
+!!! This is an archived repository. If you are interested in using ViscNet, please use the version provided in the [GlassPy](https://github.com/drcassar/glasspy) module !!!
+
 ViscNet is a machine learning model that can predict the temperature-dependency of viscosity of oxide liquids and the fragility index and the glass transition temperature.
 
 ## How to use
