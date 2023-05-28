@@ -8,13 +8,11 @@
 ViscNet is a machine learning model that can predict the temperature-dependency of viscosity of oxide liquids and the fragility index and the glass transition temperature.
 
 ## How to use
-Python 3.6+ is required to run the code. The recommended procedure is to create a new virtual environment and install the necessary modules by running
+Python 3.6-3.9 is required to run the code. The recommended procedure is to create a new virtual environment and install the necessary modules by running
 
 ``` sh
 pip install -r requirements.txt
 ```
-
-After this, install PyTorch and PyTorch-lightning following the instructions in their respective websites (https://pytorch.org/ and https://pytorch-lightning.readthedocs.io/en/latest/)
 
 ## Brief description of the script files
 - [models.py](./viscnet/models.py): class to build the models and function to train them.
