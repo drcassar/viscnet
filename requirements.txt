@@ -1,7 +1,8 @@
 numpy
-scikit-learn
+scikit-learn<0.24
 scipy
-pandas
+pandas<2.0.0
 chemparse
-matplotlib
+matplotlib<3.4
 python-ternary
+pytorch-lightning==1.0.4
